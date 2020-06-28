@@ -1,0 +1,7 @@
+  511  python3 -m venv vtf2
+  513  source vtf2/bin/activate
+  514  python3 -m pip install -U tensorflow
+  515  python3 -m pip install notebook
+  517  jupyter notebook
+  518  pip install --user ipykernel
+  519  python -m ipykernel install --user --name=vtf2
